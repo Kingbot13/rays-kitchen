@@ -1,0 +1,99 @@
+
+ body {
+    
+ }
+
+/* RAY HEADING */
+.TB1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* COVID ALERT HEADING */
+.CA {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* COVID INFO PARAGRAPH */
+.covidp {
+    text-align: center;
+    padding: 4px;
+    border-color: rgb(163, 162, 162);
+    color: black;
+    text-indent: 10px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* COVID PARAGRAPH */
+.CP {
+    text-align: center;
+    padding: 4px;
+    border-color: rgb(163, 162, 162);
+    color: black;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /* COVID ORDERING HEADING */
+.OR {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /* GRUBHUB & DOODASH LOGO */
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ /* BORDER IN MAIN PAGE */
+  .A1 {
+    text-align: center;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 4px;
+    border-color: rgb(163, 162, 162);
+  }
+
+  .CLASS table, td {
+      text-align: center;
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      letter-spacing: 3px;
+      width: 60%;
+  }
+
+  .sidebar {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  th:hover {background-color:#f5f5f5;}
+
+  .FT {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  /* FOOTER HIGHLIGHT*/
+  a:hover {background-color:#f5f5f5;}
