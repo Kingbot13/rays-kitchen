@@ -2,6 +2,20 @@ body{
     text-align: center;
 }
 
+.navbar{
+    position: relative;
+}
+
+.nav-options-container{
+    position: absolute;
+}
+
+.nav-options{
+    position: grid;
+    grid-template-columns: auto;
+    
+}
+
 .hero{
     background-image: url(images/hero.jpg);
     height: 95vh;
