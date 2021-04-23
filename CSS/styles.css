@@ -1,11 +1,18 @@
 
  body {
-    
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
+  font-size: 16px;
+  text-align: center;
+ }
+
+ h1{
+   text-transform: uppercase;
  }
 
 /* RAY HEADING */
 .TB1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
     text-align: center;
 }
 
@@ -13,7 +20,7 @@
 .CA {
     text-align: center;
     text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 /* COVID INFO PARAGRAPH */
 .covidp {
@@ -23,7 +30,7 @@
     color: black;
     text-indent: 10px;
     letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 /* COVID PARAGRAPH */
 .CP {
@@ -32,13 +39,13 @@
     border-color: rgb(163, 162, 162);
     color: black;
     letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
  /* COVID ORDERING HEADING */
 .OR {
     text-align: center;
     text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
  /* GRUBHUB & DOODASH LOGO */
 * {
@@ -71,7 +78,6 @@
   .CLASS table, td {
       text-align: center;
       color: black;
-      font-family: Georgia, 'Times New Roman', Times, serif;
       letter-spacing: 3px;
       width: 60%;
   }
@@ -79,7 +85,6 @@
   .sidebar {
     text-align: center;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
 
   }
@@ -93,7 +98,27 @@
 
   .FT {
       text-align: center;
-      font-family: Georgia, 'Times New Roman', Times, serif;
   }
   /* FOOTER HIGHLIGHT*/
   a:hover {background-color:#f5f5f5;}
+
+
+  /******Menu Page******/
+
+  /* Section Grid Positioning */
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 75px 0;
+
+  }
+
+  .steak-sect{
+    margin-top: 75px;
+  }
+
+  /* Menu Img Sizing */
+  .menu-food-img img{
+    height: 20rem;
+    width: 20rem;
+  }
