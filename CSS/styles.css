@@ -99,6 +99,14 @@
 
   /******Menu Page******/
 
+  /* Section Grid Positioning */
+  .steak-sect, .burger-sect, .chicken-sect, .dessert-sect{
+    position: grid;
+    grid-template-columns: auto auto auto auto;
+
+  }
+
+  /* Menu Img Sizing */
   .menu-food-img img{
     height: 20rem;
     width: 20rem;
