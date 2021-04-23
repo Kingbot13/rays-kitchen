@@ -3,7 +3,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -11,71 +11,105 @@
         <title>Ray's Kitchen</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="CSS/styles.css">
     </head>
     <body>
-        <!-- navbar -->
-        <section class="navbar">
-            <header class="page header">
-                <!--Page Name-->
-                <h1>Ray's Kitchen</h1>
-            </header>
-            <!-- grid container -->
-            <div class="nav-options-container">
-                <!-- container for navbar options -->
-                <div class="nav-options">
-                    <a href="Menu.html">Menu</a>
-                    <a href="#">Order-Online</a>
-                    <a href="#">About us</a>
-                    <a href="Contact.html">Contact Us</a>
-    
-                </div>
-
-            </div>
-        </section>
+        <header>
+            <!--table title-->
+            <table cellspacing="15" class="TOP">
+                <tr>
+                  <td>
+                      <!--Ray image container-->
+                      <!--<img src="images/ray.jpg" alt="" height="110" width="110">-->
+                 </td>
+                  <td>
+                    <h1>Ray's Kitchen</h1>
+                    <p>47th Chester Street, CA 91608</p>
+                 </td>
+                </tr>
+              </table>
+        </header>
+        <!--Tab Links-->
+        <nav>
+            <section class="sidebar">
+                <table class="center">
+                    <tr>
+                        <th><a href="index.html">Home</a></th>
+                        <th><a href="#">Careers</a></th>
+                        <th><a href="Menu.html">Menu</a></th>
+                        <th><a href="#">Order-Online</a></th>
+                        <th><a href="#">About</a></th>
+                        <th><a href="Contact.html">Contact</a></th>
+                    </tr>
+                </table>
+            </section>
+        </nav>
         <hr>
         <main>
             <!-- hero section -->
             <section class="hero">
                 <!-- image container for hero section -->
-                <!-- <div>
-                    <img src="images/hero.jpg" alt="People eating burgers">
-                </div> -->
-                <h1>347 Chester Street, CA 91608</h1>
+                <!--<div>
+                   <img src="images/hero.jpg" alt="People eating burgers">
+                </div>-->
             </section>
-            <!-- company info and history -->
+            <!-- COVID-19 Information -->
             <section>
-                <h1>Ray's Way</h1>
-                <!-- image conatiner -->
-                <div class="ray">
-                    <!-- <img src="images/ray.jpg" alt="old man ray"> -->
+                <article class="A1">
+                    <!--covid class-->
+                <h1 class="CA">COVID-19 Alert:</h1>
+                <div class="covidp">
+                <p>All Employees, Customers, and Visitors must wear a face covering while on the premises, except when an individual is under two years of age or where it is impractical like when eating, drinking,<br> or receiving a service that cannot be completed while wearing a mask.<br> Customers, and visitors who refuse to wear a face covering may be declined entry.<br> Arrange seating to achieve a minimum distance of 6 feet between parties, and Keep doors and windows open where possible and utilize fans to improve ventilation.</p>
                 </div>
-                <article>
-                    <h2>Ray's Backstory</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quae, exercitationem optio incidunt quos sit.</p>
-                </article>
-                <article>
-                    <h2>Ray's Cooking</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae optio corporis sunt delectus omnis quibusdam quia quae accusantium doloremque tempora!</p>
-
-                </article>
-                <article>
-                    <h2>Company History</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui excepturi veritatis distinctio fuga quis aliquid officia cumque doloremque reprehenderit mollitia, eveniet delectus quisquam soluta. Maxime quod voluptatibus aliquid quis! Ipsam.</p>
+                <!-- image conatiner -->
+                <!--<div>
+                    <img src="images/ray.jpg" alt="old man ray">
+                </div>-->
+                <!--Online Doordash Info-->
+                <!--Online Ordering class-->
+                    <h2 class="OR">Online Ordering:</h2>
+                    <p class="CP">With COVID-19, you can place an order online and choice either DoorDash or Uber Eats and your order will be deliverd too<br>Please remember to use <b>Social-Distancing</b> when orders arrive.<br>Thank You.👍</p>
+                    <!--Doordash & Ubereats-->
+                    <!--<div class="row">
+                        <div class="column">
+                          <img src="images/doordash.png" alt="DoorDash" style="width:50%">
+                        </div>
+                        <div class="column">
+                          <img src="images/UberEats.jpg" alt="Uber Eats" style="width:50%">
+                          </div>-->
+                    </div>
+                    <!-- Container for the image gallery -->
+                    <!--<div class="container"></div>-->
+                    <!-- Full-width images with number text -->
+                    <!--<div class="mySlides">-->
+                        <!--<div class="numbertext">1 / 6</div>-->
+                        <!--Secret-Burger picture-->
+                        <!--img src="images/rays-secret-sauce-burger.jpg" alt="" style="width: 50%;" style="height: 30%;">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                          <img src="images/boneless-wings.jpg" style="width: 30%" style="height: 30;">
+                      </div>
+                      <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                          <img src="images/fillet-mignon.jpg" style="width: 30%" style="height: 30;">
+                      </div>
+                      <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                          <img src="images/ice-cream.jpg" style="width: 30%" style="height: 30;">
+                      </div>-->
                 </article>
             </section>
         </main>
-        <footer>
-            <article>
-                <h3>Directions</h3>
-                <p>12345 Ray's Way <br>
-                    USA
-                </p>
+        <hr>
+        <footer class="FT">
+                <a href="index.html">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="#">Order-Online</a>
+                <a href="#">About us</a>
                 <a href="Contact.html">Contact Us</a>
                 <p>Copyright 2021©</p>
-            </article>
-        </footer>
-        
+        </footer> 
         <script src="" async defer></script>
     </body>
 </html>
